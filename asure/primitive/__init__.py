@@ -1,4 +1,4 @@
-from ..resource import AsueWebsocket, AsueRoute
+from ..resource import AsureWebsocket, AsueRoute
 from .useful import encode_data, decode_data
 from ..request import AsueRequestObject
 import asyncio

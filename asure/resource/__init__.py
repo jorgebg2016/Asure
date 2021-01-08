@@ -31,7 +31,7 @@ class AsueRoute:
     def get_json_route(self):
         return self.__dict__
     
-class AsueWebsocket:
+class AsureWebsocket:
     
     def __init__(self, send, receive, scope):
         self._scope = scope
